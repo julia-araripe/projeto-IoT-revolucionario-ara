@@ -1,29 +1,88 @@
 body{
+    background-color: black;
     margin: 0px 0px 0px 0px;
     font-family: monospace;
 }
 
 .header {
     background-color: black;
+    height: 100px;
     width: 100%;
     border-bottom: 3px blue solid;
+    align-items: center;
 }
 
-h1{
-    margin: 0;
-    color: blue;
+.título{
+    margin: 0px;
+    color:aqua;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
 }
 
 .header .container{
-        width: 70%;
-        display:flex
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.header .container .navbar {
+.navbar {
     width: 500px;
     list-style: none; 
     align-items: center;
     justify-content: space-between;
     color: orange;
     display: flex;
+    padding: 0;
+}
+
+p{
+    color: white;
+}
+
+/* Começo do banner */
+
+.banner{
+    height: 500px;
+    background-image: url("../projeto-IoT-revolucionario-ara/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
+
+.banner .card{
+    background-color:beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.btn {
+    font-family: monospace;
+    margin-top: 10px;
+    border: 0;
+    font-weight: 600;
+    background-color: #e75459;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+input{
+    height: 30px;
+    border: 2px solid #e75459;
+    border-radius: 4px;
+}
+
+.banner .card {
+    color:#e75459; 
 }
