@@ -86,3 +86,45 @@ input{
 .banner .card {
     color:#e75459; 
 }
+
+/* Término do banner */
+
+
+/* CADASTRO */
+
+.banner_cad {
+    height: 500px;
+    background-image: url("../projeto-IoT-revolucionario-ara/imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
+
+.banner_cad .card_cad {
+    background-color:beige;
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.banner_cad .card_cad {
+    color:#e75459; 
+}
+
+.btn_cad {
+    font-family: monospace;
+    margin-top: 5px;
+    border: 0;
+    font-weight: 600;
+    background-color: #e75459;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 10px 15x;
+}
+
+/* CADASTRO */
